@@ -1,0 +1,257 @@
+{
+    "version": "0.4",
+    "title": "404",
+    "type": "error-404",
+    "metadata": {
+        "template_type": "single-404",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "elementor_library_type": "error-404",
+        "elementor_pro_conditions": [
+            "include\/singular\/not_found404"
+        ],
+        "additional_template_information": [
+            "This is a \"Error 404\" template for Elementor Pro.",
+            "This template will display on: 404 Page."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "47edbdec",
+            "settings": {
+                "flex_direction": "column",
+                "min_height": {
+                    "unit": "vh",
+                    "size": 100,
+                    "sizes": []
+                },
+                "flex_justify_content": "center",
+                "background_background": "classic",
+                "background_image": {
+                    "id": 2334,
+                    "url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/law-theme-mallet-of-the-judge-law-enforcement-offi-FSTJGGJ.jpg",
+                    "alt": "",
+                    "source": "library",
+                    "size": ""
+                },
+                "background_position": "center center",
+                "background_attachment": "fixed",
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "padding": {
+                    "unit": "px",
+                    "top": "112",
+                    "right": "0",
+                    "bottom": "112",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "__globals__": {
+                    "background_overlay_color": "globals\/colors?id=8437f0c",
+                    "background_color": "globals\/colors?id=dc78308"
+                },
+                "_title": "404",
+                "flex_direction_tablet": "column",
+                "flex_align_items_tablet": "center",
+                "background_position_mobile": "center left",
+                "background_xpos_mobile": {
+                    "unit": "px",
+                    "size": -749,
+                    "sizes": []
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "56",
+                    "right": "0",
+                    "bottom": "56",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "48",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "min_height_tablet": {
+                    "unit": "vh",
+                    "size": "",
+                    "sizes": []
+                },
+                "min_height_mobile": {
+                    "unit": "vh",
+                    "size": "",
+                    "sizes": []
+                },
+                "background_repeat_mobile": "no-repeat",
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 0.88,
+                    "sizes": []
+                },
+                "background_repeat": "no-repeat"
+            },
+            "elements": [
+                {
+                    "id": "76fb2e64",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_justify_content": "center",
+                        "flex_align_items": "center"
+                    },
+                    "elements": [
+                        {
+                            "id": "2945dfba",
+                            "settings": {
+                                "content_width": "full",
+                                "title": "OOOPSSS, SORRY!",
+                                "header_size": "div",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=be54938",
+                                    "title_color": "globals\/colors?id=07414c8"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "63c9e565",
+                            "settings": {
+                                "content_width": "full",
+                                "before_text": "Error",
+                                "highlighted_text": "404",
+                                "rotating_text": "Better\nBigger\nFaster",
+                                "tag": "h1",
+                                "__globals__": {
+                                    "words_typography_typography": "",
+                                    "words_color": "globals\/colors?id=b41e63e",
+                                    "title_typography_typography": "globals\/typography?id=a9df466",
+                                    "title_color": "globals\/colors?id=e052ba3",
+                                    "marker_color": "globals\/colors?id=a32a2b8"
+                                },
+                                "alignment_mobile": "center",
+                                "_element_width": "initial",
+                                "_element_custom_width": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "_element_custom_width_tablet": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "_element_custom_width_mobile": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "_flex_align_self": "flex-end",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "-8",
+                                    "right": "0",
+                                    "bottom": "-8",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_flex_align_self_tablet": "center"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "animated-headline",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "182f86d7",
+                            "settings": {
+                                "content_width": "full",
+                                "_element_width": "initial",
+                                "_element_custom_width": {
+                                    "unit": "%",
+                                    "size": 55,
+                                    "sizes": []
+                                },
+                                "_flex_align_self": "center",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=cae1a9c"
+                                },
+                                "align": "center",
+                                "align_mobile": "center",
+                                "_margin_tablet": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_element_custom_width_tablet": {
+                                    "unit": "%",
+                                    "size": 85,
+                                    "sizes": []
+                                },
+                                "_element_custom_width_mobile": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "editor": "<p>The page you are looking for might have been removed, had its name changed or is temporarily unavailable.<\/p>",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "-24",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_margin_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "-24",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "109b6c7b",
+                            "settings": {
+                                "text": "Back to Home",
+                                "link": {
+                                    "url": "https:\/\/container.deverust.com\/lawrist\/template-kit\/home\/",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "content_width": "full"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "button",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ],
+    "page_settings": {
+        "page_template": "elementor_canvas"
+    }
+}

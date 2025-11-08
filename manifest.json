@@ -1,0 +1,1825 @@
+{
+    "manifest_version": "1.0.23",
+    "title": "Lawrist Lawyer & Attorney Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/container.deverust.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our Blog",
+            "screenshot": "screenshots\/our-blog.jpg",
+            "source": "templates\/our-blog.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/template-kit\/our-blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/?elementor_library=header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Post Archive",
+            "screenshot": "screenshots\/post-archive.jpg",
+            "source": "templates\/post-archive.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/?elementor_library=post-archive",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/?elementor_library=single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.jpg",
+            "source": "templates\/404.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/?elementor_library=404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/template-kit\/home\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Design Guideline",
+            "screenshot": "screenshots\/design-guideline.jpg",
+            "source": "templates\/design-guideline.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/template-kit\/design-guideline\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Coming Soon",
+            "screenshot": "screenshots\/coming-soon.jpg",
+            "source": "templates\/coming-soon.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/template-kit\/coming-soon\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Projects",
+            "screenshot": "screenshots\/projects.jpg",
+            "source": "templates\/projects.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/template-kit\/projects\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Testimonials",
+            "screenshot": "screenshots\/testimonials.jpg",
+            "source": "templates\/testimonials.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/template-kit\/testimonials\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Career",
+            "screenshot": "screenshots\/career.jpg",
+            "source": "templates\/career.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/template-kit\/career\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our Process",
+            "screenshot": "screenshots\/our-process.jpg",
+            "source": "templates\/our-process.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/template-kit\/our-process\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/container.deverust.com\/lawrist\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.23.4",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.23.3",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "business-team-and-lawyers-discussing-contract-pape-XV6QZBN.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/business-team-and-lawyers-discussing-contract-pape-XV6QZBN-800x520.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-blog.json",
+                    "name": "Our Blog"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 137234,
+            "dimensions": [
+                2000,
+                1300
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-XV6QZBN"
+        },
+        {
+            "filename": "explaining-contract-points-to-colleague-2P9EJUG.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/explaining-contract-points-to-colleague-2P9EJUG-800x520.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 155991,
+            "dimensions": [
+                2000,
+                1300
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-2P9EJUG"
+        },
+        {
+            "filename": "weve-got-his-back-shot-of-a-group-of-lawyers-stan-JDJ4E6J.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/weve-got-his-back-shot-of-a-group-of-lawyers-stan-JDJ4E6J-800x510.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 112729,
+            "dimensions": [
+                1200,
+                765
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-JDJ4E6J"
+        },
+        {
+            "filename": "two-confident-colleagues-shaking-hands-G32GVHM.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/two-confident-colleagues-shaking-hands-G32GVHM-800x520.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 188081,
+            "dimensions": [
+                2000,
+                1300
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-G32GVHM"
+        },
+        {
+            "filename": "Judge-01-HX4ET9A.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/Judge-01-HX4ET9A.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 2090,
+            "dimensions": [
+                72,
+                72
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-HX4ET9A"
+        },
+        {
+            "filename": "Individual-HX4ET9A.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/Individual-HX4ET9A.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 1987,
+            "dimensions": [
+                72,
+                72
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-HX4ET9A"
+        },
+        {
+            "filename": "Policeman-Badge-HX4ET9A.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/Policeman-Badge-HX4ET9A.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 2141,
+            "dimensions": [
+                72,
+                72
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-HX4ET9A"
+        },
+        {
+            "filename": "Fingerprint-HX4ET9A.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/Fingerprint-HX4ET9A.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 1566,
+            "dimensions": [
+                72,
+                72
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-HX4ET9A"
+        },
+        {
+            "filename": "Legal-Agreement-HX4ET9A.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/Legal-Agreement-HX4ET9A.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 2221,
+            "dimensions": [
+                72,
+                72
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-HX4ET9A"
+        },
+        {
+            "filename": "Sheriff-Badge-HX4ET9A.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/Sheriff-Badge-HX4ET9A.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 2593,
+            "dimensions": [
+                72,
+                72
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-HX4ET9A"
+        },
+        {
+            "filename": "image-DFT9YXT.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/image-DFT9YXT-800x520.jpg",
+            "templates": [
+                {
+                    "source": "templates\/post-archive.json",
+                    "name": "Post Archive"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 81289,
+            "dimensions": [
+                2000,
+                1300
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-DFT9YXT"
+        },
+        {
+            "filename": "placeholder-1.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/placeholder-1-800x533.png",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 6146,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "law-theme-mallet-of-the-judge-law-enforcement-offi-FSTJGGJ.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/law-theme-mallet-of-the-judge-law-enforcement-offi-FSTJGGJ-800x532.jpg",
+            "templates": [
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 115189,
+            "dimensions": [
+                2000,
+                1331
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-FSTJGGJ"
+        },
+        {
+            "filename": "image-NVHXJQ8.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/image-NVHXJQ8-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 234347,
+            "dimensions": [
+                1888,
+                1888
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-NVHXJQ8"
+        },
+        {
+            "filename": "woman-D779WWN.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/woman-D779WWN.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 123269,
+            "dimensions": [
+                662,
+                662
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-D779WWN"
+        },
+        {
+            "filename": "young-handsome-man-standing-with-crossed-arms-TD2S3E7.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/young-handsome-man-standing-with-crossed-arms-TD2S3E7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 51521,
+            "dimensions": [
+                642,
+                642
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-TD2S3E7"
+        },
+        {
+            "filename": "hobbies-creativity-and-art-concept-cheerful-talent-TWTCFQ3.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/hobbies-creativity-and-art-concept-cheerful-talent-TWTCFQ3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 79522,
+            "dimensions": [
+                605,
+                605
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-TWTCFQ3"
+        },
+        {
+            "filename": "Asset-2@3x-S99RUBN.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/Asset-2@3x-S99RUBN.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 56666,
+            "dimensions": [
+                521,
+                348
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-S99RUBN"
+        },
+        {
+            "filename": "Asset-5@3x-S99RUBN.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/Asset-5@3x-S99RUBN.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 56193,
+            "dimensions": [
+                514,
+                346
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-S99RUBN"
+        },
+        {
+            "filename": "Asset-4@3x-S99RUBN.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/Asset-4@3x-S99RUBN.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 53370,
+            "dimensions": [
+                483,
+                306
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-S99RUBN"
+        },
+        {
+            "filename": "Asset-3@3x-S99RUBN.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/Asset-3@3x-S99RUBN.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 41659,
+            "dimensions": [
+                440,
+                337
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-S99RUBN"
+        },
+        {
+            "filename": "multiracial-business-people-having-meeting-and-bra-Y79DKY7.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/multiracial-business-people-having-meeting-and-bra-Y79DKY7-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 145000,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-Y79DKY7"
+        },
+        {
+            "filename": "law-firm-jobs-lawyer-specialist-business-and-ban-YYNHLCS.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/law-firm-jobs-lawyer-specialist-business-and-ban-YYNHLCS-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 119521,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-YYNHLCS"
+        },
+        {
+            "filename": "business-team-partner-meeting-together-to-brainsto-53BECU4.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/business-team-partner-meeting-together-to-brainsto-53BECU4-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 98665,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-53BECU4"
+        },
+        {
+            "filename": "businessman-and-women-having-discussion-in-boardro-AZXMCPD.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/businessman-and-women-having-discussion-in-boardro-AZXMCPD-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 112583,
+            "dimensions": [
+                1200,
+                799
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-AZXMCPD"
+        },
+        {
+            "filename": "two-disgusting-businessmen-asian-lawyer-of-indian-9XN4XJN.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/two-disgusting-businessmen-asian-lawyer-of-indian-9XN4XJN-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 77586,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-9XN4XJN"
+        },
+        {
+            "filename": "a-group-of-lawyers-is-discussing-contract-document-QJVQ5X6.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/a-group-of-lawyers-is-discussing-contract-document-QJVQ5X6-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/design-guideline.json",
+                    "name": "Design Guideline"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 60561,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-QJVQ5X6"
+        },
+        {
+            "filename": "image-v1-3BUE4B2.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/image-v1-3BUE4B2-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 179811,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-3BUE4B2"
+        },
+        {
+            "filename": "image-v1-NNRFL53.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/image-v1-NNRFL53-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 218888,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-NNRFL53"
+        },
+        {
+            "filename": "image-v1-ZSTS232.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/image-v1-ZSTS232-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 190513,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZSTS232"
+        },
+        {
+            "filename": "image-v1-DP69V4D.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/image-v1-DP69V4D-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 220265,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-DP69V4D"
+        },
+        {
+            "filename": "image-v1-V89SY7V.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/image-v1-V89SY7V-800x949.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 237306,
+            "dimensions": [
+                1012,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-V89SY7V"
+        },
+        {
+            "filename": "paintbucket-1.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/paintbucket-1.png",
+            "templates": [
+                {
+                    "source": "templates\/design-guideline.json",
+                    "name": "Design Guideline"
+                }
+            ],
+            "filesize": 10653,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "edit-1-1.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/edit-1-1.png",
+            "templates": [
+                {
+                    "source": "templates\/design-guideline.json",
+                    "name": "Design Guideline"
+                }
+            ],
+            "filesize": 10054,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "copy-1.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/copy-1.png",
+            "templates": [
+                {
+                    "source": "templates\/design-guideline.json",
+                    "name": "Design Guideline"
+                }
+            ],
+            "filesize": 8297,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "equal.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2023\/10\/equal.png",
+            "templates": [
+                {
+                    "source": "templates\/design-guideline.json",
+                    "name": "Design Guideline"
+                }
+            ],
+            "filesize": 8954,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "image-99QL3UZ.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/image-99QL3UZ-800x520.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 79132,
+            "dimensions": [
+                2000,
+                1300
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-99QL3UZ"
+        },
+        {
+            "filename": "image-3MNF3WE.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/image-3MNF3WE-800x520.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 95276,
+            "dimensions": [
+                2000,
+                1300
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-3MNF3WE"
+        },
+        {
+            "filename": "partner-lawyers-attorneys-shaking-hands-after-disc-9DW4HTA.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/partner-lawyers-attorneys-shaking-hands-after-disc-9DW4HTA-800x520.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 143879,
+            "dimensions": [
+                2000,
+                1300
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-9DW4HTA"
+        },
+        {
+            "filename": "business-team-with-leader-at-office-U6D4ERL.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2022\/02\/business-team-with-leader-at-office-U6D4ERL-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 138327,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-U6D4ERL"
+        },
+        {
+            "filename": "image-APGF4S9.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/image-APGF4S9-800x520.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 86871,
+            "dimensions": [
+                2000,
+                1300
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-APGF4S9"
+        },
+        {
+            "filename": "biracial-group-of-business-people-working-with-pap-ZC4L9WB.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2022\/02\/biracial-group-of-business-people-working-with-pap-ZC4L9WB-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/coming-soon.json",
+                    "name": "Coming Soon"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 134784,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZC4L9WB"
+        },
+        {
+            "filename": "mature-lawyer-reading-documents-at-modern-workplac-UWZG7EP.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/mature-lawyer-reading-documents-at-modern-workplac-UWZG7EP-800x520.jpg",
+            "templates": [
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 234781,
+            "dimensions": [
+                2000,
+                1300
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-UWZG7EP"
+        },
+        {
+            "filename": "business-people-in-forum-4MVBEYX.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2022\/02\/business-people-in-forum-4MVBEYX-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 98454,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-4MVBEYX"
+        },
+        {
+            "filename": "business-asian-people-and-lawyers-businessman-and-7AZN2YZ.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2022\/02\/business-asian-people-and-lawyers-businessman-and-7AZN2YZ-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 88175,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-7AZN2YZ"
+        },
+        {
+            "filename": "shaking-hands-after-good-cooperation-WNJQYWE.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2022\/02\/shaking-hands-after-good-cooperation-WNJQYWE-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 65065,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-WNJQYWE"
+        },
+        {
+            "filename": "logo12-coinage.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/logo12-coinage.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 9695,
+            "dimensions": [
+                560,
+                284
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo11-coinage.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/logo11-coinage.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 5213,
+            "dimensions": [
+                560,
+                284
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo10-coinage.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/logo10-coinage.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 3298,
+            "dimensions": [
+                560,
+                284
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo09-coinage.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/logo09-coinage.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 9947,
+            "dimensions": [
+                560,
+                284
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo08-coinage.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/logo08-coinage.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 4663,
+            "dimensions": [
+                560,
+                284
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo01-coinage.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/logo01-coinage.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 3970,
+            "dimensions": [
+                560,
+                284
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "couture-light.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/couture-light.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 7774,
+            "dimensions": [
+                560,
+                284
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "globerek-light.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/globerek-light.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 5171,
+            "dimensions": [
+                560,
+                285
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Frame-4-light.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/Frame-4-light.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 4414,
+            "dimensions": [
+                560,
+                285
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "gelowinx-light.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/gelowinx-light.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 9452,
+            "dimensions": [
+                560,
+                284
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "shieldguard-light.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/shieldguard-light.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 5946,
+            "dimensions": [
+                560,
+                284
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "vogue-light.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/vogue-light.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 8567,
+            "dimensions": [
+                560,
+                284
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "i-love-being-a-delivery-man-G4RNQDS.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/i-love-being-a-delivery-man-G4RNQDS.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 124467,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-G4RNQDS"
+        },
+        {
+            "filename": "i-know-where-im-going-C8AZGNL.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/i-know-where-im-going-C8AZGNL.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 158611,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-C8AZGNL"
+        },
+        {
+            "filename": "hes-the-best-in-this-business-9CKQ4Q9.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/hes-the-best-in-this-business-9CKQ4Q9.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 183828,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-9CKQ4Q9"
+        },
+        {
+            "filename": "woman-judge-is-currently-advising-clients-on-their-GLBVKCA.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/woman-judge-is-currently-advising-clients-on-their-GLBVKCA-800x520.jpg",
+            "templates": [
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 223000,
+            "dimensions": [
+                2000,
+                1300
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-GLBVKCA"
+        },
+        {
+            "filename": "Briefcase-01-HX4ET9A.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/Briefcase-01-HX4ET9A.png",
+            "templates": [
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 1575,
+            "dimensions": [
+                72,
+                72
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-HX4ET9A"
+        },
+        {
+            "filename": "Jury-HX4ET9A.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/Jury-HX4ET9A.png",
+            "templates": [
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 2054,
+            "dimensions": [
+                72,
+                72
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-HX4ET9A"
+        },
+        {
+            "filename": "Lawyer-01-HX4ET9A.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/Lawyer-01-HX4ET9A.png",
+            "templates": [
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 2128,
+            "dimensions": [
+                72,
+                72
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-HX4ET9A"
+        },
+        {
+            "filename": "its-never-too-late-to-seek-out-advice-RMDRRDF.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/its-never-too-late-to-seek-out-advice-RMDRRDF-800x520.jpg",
+            "templates": [
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 166542,
+            "dimensions": [
+                2000,
+                1300
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-RMDRRDF"
+        },
+        {
+            "filename": "law-legal-technology-concept-legal-advice-online-i-G3BWGFZ.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/law-legal-technology-concept-legal-advice-online-i-G3BWGFZ-800x520.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 197229,
+            "dimensions": [
+                2000,
+                1300
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-G3BWGFZ"
+        },
+        {
+            "filename": "Legal-Website-02-HX4ET9A.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/Legal-Website-02-HX4ET9A.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 2308,
+            "dimensions": [
+                72,
+                72
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-HX4ET9A"
+        },
+        {
+            "filename": "Department-HX4ET9A.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/Department-HX4ET9A.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 3064,
+            "dimensions": [
+                72,
+                72
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-HX4ET9A"
+        },
+        {
+            "filename": "Veredict-01-HX4ET9A.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/Veredict-01-HX4ET9A.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 1460,
+            "dimensions": [
+                72,
+                72
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-HX4ET9A"
+        },
+        {
+            "filename": "Legal-Document-01-HX4ET9A.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/Legal-Document-01-HX4ET9A.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 1205,
+            "dimensions": [
+                72,
+                72
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-HX4ET9A"
+        },
+        {
+            "filename": "Legal-Website-01-HX4ET9A.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/Legal-Website-01-HX4ET9A.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 1498,
+            "dimensions": [
+                72,
+                72
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-HX4ET9A"
+        },
+        {
+            "filename": "Gavel-HX4ET9A.png",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/Gavel-HX4ET9A.png",
+            "templates": [
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 1590,
+            "dimensions": [
+                72,
+                72
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-HX4ET9A"
+        },
+        {
+            "filename": "image-XJPFQ8V.jpg",
+            "thumbnail_url": "https:\/\/container.deverust.com\/lawrist\/wp-content\/uploads\/sites\/6\/2024\/08\/image-XJPFQ8V-800x520.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 88952,
+            "dimensions": [
+                2000,
+                1300
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-XJPFQ8V"
+        }
+    ]
+}
